@@ -4,14 +4,14 @@ from pymongo.server_api import ServerApi
 
 app = Flask(__name__)
 
-uri = "mongodb+srv://jmunoz6:Rpg200213@cluster0.4xkeaks.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://jmunoz6:Rpg200213@cluster0.w3e20jx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(uri, server_api=ServerApi('1'))
 
 # Verifica si la conexión se estableció correctamente
 try:
     client.admin.command('ping')
     print("Conexión a MongoDB Atlas establecida correctamente.")
-    db = client['distribuidos']
+    db = client['Distribuidos']
     coleccion_productos = db.productos
 except Exception as e:
     print(f"Error al conectar a MongoDB Atlas: {e}")
