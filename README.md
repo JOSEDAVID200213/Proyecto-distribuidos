@@ -27,9 +27,9 @@ pymongo es el controlador oficial de Python para MongoDB. Permite a los desarrol
 
 
 2. **Configuración de MongoDB Atlas**: Crea una cuenta en MongoDB Atlas si aún no la tienes. Luego, crea un clúster y obtén la URL de conexión. Reemplaza la variable `uri` en el archivo `CRUD.py` con tu propia URL de conexión en la linea de codigo:
-'''
+```
 uri = "mongodb+srv://jmunoz6:Rpg200213@cluster0.w3e20jx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-'''
+```
 
 3. **Ejecución del servidor**: Ejecuta el siguiente comando en tu terminal para iniciar el servidor Flask:
 
@@ -53,9 +53,9 @@ Antes de comenzar, asegúrate de tener instalado Postman en tu sistema. Puedes d
 
 2. En la barra de direcciones, ingresa la URL de la solicitud GET para obtener todos los productos:
 
-'''
+```
 GET http://localhost:5000/productos
-'''
+```
 
 
 3. Haz clic en el botón "Enviar" para enviar la solicitud.
@@ -66,9 +66,9 @@ GET http://localhost:5000/productos
 
 1. En Postman, ingresa la URL de la solicitud GET para obtener un producto por su ID:
 
-'''
+```
 GET http://localhost:5000/productos/{producto_id}
-'''
+```
 
 Reemplaza `{producto_id}` con el ID del producto que deseas obtener.
 
@@ -82,9 +82,9 @@ Reemplaza `{producto_id}` con el ID del producto que deseas obtener.
 
 2. Ingresa la URL de la solicitud POST para crear un nuevo producto:
 
-'''
+```
 POST http://localhost:5000/productos
-'''
+```
 
 
 3. En la pestaña "Cuerpo", selecciona "raw" y luego el formato JSON.
@@ -98,7 +98,7 @@ json
   "nombre": "Nuevo Producto",
   "precio": 19.99
 }
-'''
+```
 
 5. Haz clic en el botón "Enviar" para enviar la solicitud.
 Deberías recibir una respuesta JSON que contiene los detalles del nuevo producto creado. 
