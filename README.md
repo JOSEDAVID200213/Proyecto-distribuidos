@@ -103,4 +103,15 @@ json
 5. Haz clic en el botón "Enviar" para enviar la solicitud.
 Deberías recibir una respuesta JSON que contiene los detalles del nuevo producto creado. 
 
+### DELETE - Eliminar un producto
+1. En Postman, selecciona el método DELETE.
 
+2. Ingresa la URL de la solicitud DELETE para eliminar un producto existente:
+
+```
+DELETE http://localhost:5000/productos/{producto_id}
+
+```
+3. Reemplaza {producto_id} con el ID del producto que deseas eliminar.
+
+4. Haz clic en el botón "Enviar" para enviar la solicitud ; Deberías recibir una respuesta JSON que confirma que el producto ha sido eliminado correctamente.
