@@ -24,7 +24,7 @@ Flask es un framework web ligero y flexible para Python. Se utiliza para crear a
 
 2. **pymongo**:
 
-![Ejemplo de imagen](https://github.com/JOSEDAVID200213/Proyecto-distribuidos/issues/1#issue-2269429225)
+![Ejemplo de imagen](https://www.astera.com/wp-content/uploads/2020/01/rest.png)
 
 pymongo es el controlador oficial de Python para MongoDB. Permite a los desarrolladores interactuar con bases de datos MongoDB desde aplicaciones Python. Con pymongo, puedes realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar), consultas avanzadas, agregar índices y más, todo desde Python. Facilita la integración de MongoDB en aplicaciones Python, lo que permite el almacenamiento y recuperación eficientes de datos en bases de datos MongoDB.
 
@@ -50,7 +50,7 @@ uri = "mongodb+srv://jmunoz6:Rpg200213@cluster0.w3e20jx.mongodb.net/?retryWrites
 
 
 ## ¿Que es Rest full API?
-![Ejemplo de imagen](https://github.com/JOSEDAVID200213/Proyecto-distribuidos/issues/3#issue-2269431239)
+![Ejemplo de imagen](https://techcrunch.com/wp-content/uploads/2016/06/2016-06-27_1940.png)
 
 # Uso de la API RESTful con Postman
 
