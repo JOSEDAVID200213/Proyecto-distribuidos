@@ -3,10 +3,13 @@
 Este proyecto implementa una API RESTful utilizando Flask para crear, leer, actualizar y eliminar (CRUD) productos almacenados en una base de datos MongoDB Atlas.
 
 ## Configuración
+![Ejemplo de imagen](flask)
 
 1. **Instalación de Librerias en python**: Asegúrate de tener Python y pip instalados en tu sistema. Luego, puedes instalar las dependencias del proyecto ejecutando el siguiente comando en tu terminal:
 
 ## Instalación de Dependencias
+
+
 1. **Flask**:
 Flask es un framework web ligero y flexible para Python. Se utiliza para crear aplicaciones web, desde simples páginas estáticas hasta complejas API RESTful. Flask proporciona herramientas y bibliotecas para ayudar en la creación rápida de aplicaciones web, permitiendo la definición de rutas, manejo de solicitudes y respuestas, y la integración con otras herramientas y bibliotecas.
 
