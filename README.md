@@ -12,7 +12,7 @@ Este proyecto implementa una API RESTful utilizando Flask para crear, leer, actu
 
 1. **Flask**:
 
-![Ejemplo de imagen](https://github.com/JOSEDAVID200213/Proyecto-distribuidos/issues/2#issue-2269430870)
+![Ejemplo de imagen](https://miro.medium.com/v2/resize:fit:640/1*XzIRJGujfqAiOV2EIQgR_Q.png)
 
 Flask es un framework web ligero y flexible para Python. Se utiliza para crear aplicaciones web, desde simples páginas estáticas hasta complejas API RESTful. Flask proporciona herramientas y bibliotecas para ayudar en la creación rápida de aplicaciones web, permitiendo la definición de rutas, manejo de solicitudes y respuestas, y la integración con otras herramientas y bibliotecas.
 
